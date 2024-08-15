@@ -11,5 +11,5 @@ body {
   font-optical-sizing: auto;
 }
 .text {
-  font-size: clamp(1rem, 1vw + 2rem, 6rem);
+  font-size: clamp(1rem, 1vw + 2rem, 4rem);
 }

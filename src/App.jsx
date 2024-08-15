@@ -43,7 +43,7 @@ const App = () => {
       <div class="flex flex-col text w-full h-full justify-center items-center  ">
         {top10BooksWithColors.map((book) => (
           <div
-            class="w-full p-6 mb-[-5vw] max-sm:mb-[-14vw]   border-t-2 border-black cursor-pointer ease-out max-sm:hover:translate-y-[-5vw] hover:translate-y-[-4vw] relative transition-all duration-300   "
+            class="w-full p-6 mb-[-3vw]  max-md:mb-[-6vw]  border-t-2 border-black cursor-pointer ease-out max-md:hover:translate-y-[-4vw] hover:translate-y-[-2vw] relative transition-all duration-300   "
             style={{
               backgroundColor: "white",
             }}
@@ -54,8 +54,7 @@ const App = () => {
               e.currentTarget.style.backgroundColor = "white";
             }}
           >
-            <h1 class="max-sm:text  xl:text-6xl  ">{book.title}</h1>
-            <h2 class="text-lg pb-2">{book.author}</h2>
+            <h1 class="text-3xl xl:text-6xl ">{book.title}</h1>
           </div>
         ))}
       </div>
